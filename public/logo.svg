@@ -44,7 +44,7 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-OH+TfwrpQEJZ/tHRyiBbMMWdSdgL4qTcfuK8eDA/BDuz+HkpCvxTPZv2X7321ojwCESAgnblfuI88VXthIVo0w==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_pjax_ts-387f937f0ae9.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-2hsYB2KHyayxUJJxJGhXeTeTZZG2c7lzRtO0uB1txmpc7rfvIt4mf0iossT0MHIHknYlaslgi98jmmlVXcXaZQ==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-HTy+v8YxQX5Zw7rzS2B8M9NNtdx29681tZQdSo39MgkWSJT04jbpfHB7sO9mNVHUfiOg5Cxa6zaPQgp2/ckLJQ==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-1d3cbebfc631.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-euguuSbROT7aUADW3MfGM/Y0mmVgfcBgVtpKK+cgJy1tuY/6nMLUpZfrlUQZlnaP5UGTR7uzhb8y6QOCfPB1kA==" src="https://github.githubassets.com/assets/behaviors-7ae82eb926d1.js"></script>
+<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-9TfXKnKyNQ7wyYu9+clru1f9vRBUuXR7Kv2UUYkx6S7w+92laz9zHVuqXFPrzO5W+WzIA2kbxuiZYPTeO5WNrQ==" src="https://github.githubassets.com/assets/behaviors-f537d72a72b2.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-piIlogi3znuMF1GWV8p3J+9yii48cjBlb1VyLj+tiOGtvs1PqVevHiwMYDlfbOZbPBxP2ocD45fmp0/AFiiDzA==" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-5UsMjG3cUJJRhqia7MXfpyQsrFEfCP2P0JObVSCRRqhDfzX4O0LLCHWyFeGUZRrp3DMImPYOFZurpZdmDN3X4A==" src="https://github.githubassets.com/assets/notifications-global-e54b0c8c6ddc.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-F2SXMZqmxRkFqNNEibrTdR1mbEplGxQb+UEwflrvU8GraZF4+y0XeTBwEXjWHFOA7OvT1B22XRPEm/RPMi68ew==" src="https://github.githubassets.com/assets/vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-05bb82-176497319aa6.js"></script>
@@ -63,7 +63,7 @@
 
     
 
-  <meta name="request-id" content="07C3:8B9E:2DF6BF:5069ED:628FA37D" data-pjax-transient="true"/><meta name="html-safe-nonce" content="14354570248b4a60d5f89d0787715b1bf22c7565d0b0f503cc05f4d04fedf235" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MzOjhCOUU6MkRGNkJGOjUwNjlFRDo2MjhGQTM3RCIsInZpc2l0b3JfaWQiOiI2NjU5ODIzMzY3OTY3NzEyMTI1IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="58918d6a32645f86e68fbc6107910cda4d8641a7956e059794bbad9ce1187e2f" data-pjax-transient="true"/>
+  <meta name="request-id" content="0442:7AA8:200EC6:40C52B:628FB37A" data-pjax-transient="true"/><meta name="html-safe-nonce" content="dbe4b11d26cdf5384ef714437ab1f04eaae89380c7a371f11b6b7c931d3a6491" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDQyOjdBQTg6MjAwRUM2OjQwQzUyQjo2MjhGQjM3QSIsInZpc2l0b3JfaWQiOiIzNzAzNzQ0NzM4NDU4ODQxOTc4IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="e4f3ef9ab89ea5c78414f395d807e21075ca39b47a45294e7ccd0850ce2ad531" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:496489784" data-pjax-transient>
 
@@ -114,10 +114,10 @@
 
 
 
-  <meta http-equiv="x-pjax-version" content="943f57d57aa30e88093b08312e7cd1bd39f76480f7ac3f4ef0101811c5a35788" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-version" content="c74eb6e759963830e1fef62f8cc9a0609523f959e9e5012160a28f1ee697a866" data-turbo-track="reload">
   <meta http-equiv="x-pjax-csp-version" content="485d6a5ccbb1eeae9c86b616b4870b531f6f458e8bd5c309c40280dc4f51defb" data-turbo-track="reload">
   <meta http-equiv="x-pjax-css-version" content="1767b5919b55927d0197d9d505994bdd174607ef31756182c916fe249e124110" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-js-version" content="662891b193c7e70b93936e25f316a8609e5d92ab23a0099922bcff2d11285702" data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="5a23d90273ed0c72bedab6d43b1e473464d315511d0727618695d76602a17e3f" data-turbo-track="reload">
 
   <meta name="turbo-cache-control" content="no-preview"></meta>
 
@@ -424,7 +424,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="zGVSLYLU3fWtXkByxf4R+u9jAYkyAdAXkUO8qy7rrQK13nmdFo1XZa+lKmo3tjz6ptGWYtdhQEQcyaPfH/5uEw==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="WNBgxIhftuX3ZiwjvZcnPhffdanS3QDStOx3kN1fcvwKMDevQ/3qJXI4/KN534JfRnpmUGWUtDY/aNseg96hOw==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -922,7 +922,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gifuyanagase/omotenasi/blob/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gifuyanagase/omotenasi/blob/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -1109,7 +1109,7 @@
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/gifuyanagase/omotenasi/blob/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/gifuyanagase/omotenasi/blob/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -1138,7 +1138,7 @@
   
 </div></div>
 
-    <include-fragment src="/gifuyanagase/omotenasi/spoofed_commit_check/f7a66bdb6b534fb6278b63ca15e061ca133827a1" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/gifuyanagase/omotenasi/spoofed_commit_check/37b2b52ffe1a2da0967607033e5d6c9e4098a952" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
   <include-fragment src="/gifuyanagase/omotenasi/contributors/master/public/shusei.svg" class="commit-loader">
@@ -1177,11 +1177,11 @@
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
         <div class="BtnGroup">
-    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg?short_path=0e445fe" data-permalink-href="/gifuyanagase/omotenasi/blob/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg?short_path=0e445fe" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg?short_path=0e445fe" data-permalink-href="/gifuyanagase/omotenasi/blob/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg?short_path=0e445fe" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
 </svg>
   
-</a>    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-permalink-href="/gifuyanagase/omotenasi/blob/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
+</a>    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-permalink-href="/gifuyanagase/omotenasi/blob/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
     <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path>
 </svg>
   
@@ -1189,9 +1189,9 @@
 
 
     <div class="BtnGroup">
-      <a data-permalink-href="/gifuyanagase/omotenasi/raw/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
+      <a data-permalink-href="/gifuyanagase/omotenasi/raw/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
   
-</a>        <a data-permalink-href="/gifuyanagase/omotenasi/blame/f7a66bdb6b534fb6278b63ca15e061ca133827a1/public/shusei.svg" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
+</a>        <a data-permalink-href="/gifuyanagase/omotenasi/blame/37b2b52ffe1a2da0967607033e5d6c9e4098a952/public/shusei.svg" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
   
 </a>    </div>
 
@@ -1263,7 +1263,7 @@
 
           <div class="render-wrapper ">
     <div class="render-container is-render-pending js-render-target "
-      data-identity="095adc9a-3222-4d66-b89c-9c58fb60c739"
+      data-identity="d0c32473-401c-4c34-8906-f0bd1e7dbc6d"
       data-host="https://viewscreen.githubusercontent.com"
       data-type="svg">
       <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" data-view-component="true" class="octospinner mx-auto anim-rotate">
@@ -1275,10 +1275,10 @@
       <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
       <iframe
         class="render-viewer "
-        src="https://viewscreen.githubusercontent.com/view/svg?browser=unknown_browser&amp;color_mode=auto&amp;commit=f7a66bdb6b534fb6278b63ca15e061ca133827a1&amp;device=unknown_device&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6769667579616e61676173652f6f6d6f74656e6173692f663761363662646236623533346662363237386236336361313565303631636131333338323761312f7075626c69632f7368757365692e737667&amp;logged_in=false&amp;nwo=gifuyanagase%2Fomotenasi&amp;path=public%2Fshusei.svg&amp;platform=unknown_platform&amp;repository_id=496489784&amp;repository_type=Repository&amp;version=0#095adc9a-3222-4d66-b89c-9c58fb60c739"
+        src="https://viewscreen.githubusercontent.com/view/svg?browser=unknown_browser&amp;color_mode=auto&amp;commit=37b2b52ffe1a2da0967607033e5d6c9e4098a952&amp;device=unknown_device&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6769667579616e61676173652f6f6d6f74656e6173692f333762326235326666653161326461303936373630373033336535643663396534303938613935322f7075626c69632f7368757365692e737667&amp;logged_in=false&amp;nwo=gifuyanagase%2Fomotenasi&amp;path=public%2Fshusei.svg&amp;platform=unknown_platform&amp;repository_id=496489784&amp;repository_type=Repository&amp;version=0#d0c32473-401c-4c34-8906-f0bd1e7dbc6d"
         sandbox="allow-scripts allow-same-origin allow-top-navigation"
         title="File display"
-        name="095adc9a-3222-4d66-b89c-9c58fb60c739"
+        name="d0c32473-401c-4c34-8906-f0bd1e7dbc6d"
       >
           Viewer requires iframe.
       </iframe>
