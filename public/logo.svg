@@ -63,7 +63,7 @@
 
     
 
-  <meta name="request-id" content="0403:1368:48FE3A:7CBB83:628F67B2" data-pjax-transient="true"/><meta name="html-safe-nonce" content="953674203a01e9e5f072e89a860e7e3358f95809f3746cce050e38ccf563a306" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAzOjEzNjg6NDhGRTNBOjdDQkI4Mzo2MjhGNjdCMiIsInZpc2l0b3JfaWQiOiI3MDUxNTQxNDI3NzkzMTI3MzQ2IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="92c2cb4cbe1a4457ea409885af8959d0464dfdd70263b05f7bfda2bcf3eb8e97" data-pjax-transient="true"/>
+  <meta name="request-id" content="0442:62B0:16E967:3AFEB9:628F69F3" data-pjax-transient="true"/><meta name="html-safe-nonce" content="775ca91924b6c374eea2ed834859eeb12b59840959694d7dfe17c259462b9097" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDQyOjYyQjA6MTZFOTY3OjNBRkVCOTo2MjhGNjlGMyIsInZpc2l0b3JfaWQiOiI4MzQwNDE5MzAxODE2MTAxMzYzIiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="b59de5571a42f7adfe4e0a4fe3cda644bd4666c1b1b9af9b20b5958b4f9edb53" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:496489784" data-pjax-transient>
 
@@ -424,7 +424,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="c2P1FCMo4LD7RRPQWpg9illd7NCfd4L/YYmMQ9ABRON0FP9HefuRflZwVttEKyTzbpPEhUGPv2FjcL2q4VNBiw==" />
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="Ll54VP9QGQpWRTJzh5CXSSXqYPv2LtXSFbUGkuW+MHk5DEOxbFIulhQFTuuvzLeFgw4oX90wlolrqyFyd9GpVw==" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -922,7 +922,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gifuyanagase/omotenasi/blob/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gifuyanagase/omotenasi/blob/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -1109,7 +1109,7 @@
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/gifuyanagase/omotenasi/blob/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/gifuyanagase/omotenasi/blob/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -1138,7 +1138,7 @@
   
 </div></div>
 
-    <include-fragment src="/gifuyanagase/omotenasi/spoofed_commit_check/96400cd2de95f0b0c73b874b304c6551ee95aace" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/gifuyanagase/omotenasi/spoofed_commit_check/f458189fbbeaff3d848f25a54e9f5638a90be37b" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
   <include-fragment src="/gifuyanagase/omotenasi/contributors/master/public/shusei.svg" class="commit-loader">
@@ -1177,11 +1177,11 @@
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
         <div class="BtnGroup">
-    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg?short_path=0e445fe" data-permalink-href="/gifuyanagase/omotenasi/blob/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg?short_path=0e445fe" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg?short_path=0e445fe" data-permalink-href="/gifuyanagase/omotenasi/blob/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg?short_path=0e445fe" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
 </svg>
   
-</a>    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-permalink-href="/gifuyanagase/omotenasi/blob/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
+</a>    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-permalink-href="/gifuyanagase/omotenasi/blob/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
     <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path>
 </svg>
   
@@ -1189,9 +1189,9 @@
 
 
     <div class="BtnGroup">
-      <a data-permalink-href="/gifuyanagase/omotenasi/raw/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
+      <a data-permalink-href="/gifuyanagase/omotenasi/raw/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
   
-</a>        <a data-permalink-href="/gifuyanagase/omotenasi/blame/96400cd2de95f0b0c73b874b304c6551ee95aace/public/shusei.svg" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
+</a>        <a data-permalink-href="/gifuyanagase/omotenasi/blame/f458189fbbeaff3d848f25a54e9f5638a90be37b/public/shusei.svg" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
   
 </a>    </div>
 
@@ -1263,7 +1263,7 @@
 
           <div class="render-wrapper ">
     <div class="render-container is-render-pending js-render-target "
-      data-identity="bfc61319-c056-41a3-96a8-159f473aab0f"
+      data-identity="b39d6536-319f-4ffc-a723-c8c8fa6adea6"
       data-host="https://viewscreen.githubusercontent.com"
       data-type="svg">
       <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" data-view-component="true" class="octospinner mx-auto anim-rotate">
@@ -1275,10 +1275,10 @@
       <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
       <iframe
         class="render-viewer "
-        src="https://viewscreen.githubusercontent.com/view/svg?browser=unknown_browser&amp;color_mode=auto&amp;commit=96400cd2de95f0b0c73b874b304c6551ee95aace&amp;device=unknown_device&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6769667579616e61676173652f6f6d6f74656e6173692f393634303063643264653935663062306337336238373462333034633635353165653935616163652f7075626c69632f7368757365692e737667&amp;logged_in=false&amp;nwo=gifuyanagase%2Fomotenasi&amp;path=public%2Fshusei.svg&amp;platform=unknown_platform&amp;repository_id=496489784&amp;repository_type=Repository&amp;version=0#bfc61319-c056-41a3-96a8-159f473aab0f"
+        src="https://viewscreen.githubusercontent.com/view/svg?browser=unknown_browser&amp;color_mode=auto&amp;commit=f458189fbbeaff3d848f25a54e9f5638a90be37b&amp;device=unknown_device&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6769667579616e61676173652f6f6d6f74656e6173692f663435383138396662626561666633643834386632356135346539663536333861393062653337622f7075626c69632f7368757365692e737667&amp;logged_in=false&amp;nwo=gifuyanagase%2Fomotenasi&amp;path=public%2Fshusei.svg&amp;platform=unknown_platform&amp;repository_id=496489784&amp;repository_type=Repository&amp;version=0#b39d6536-319f-4ffc-a723-c8c8fa6adea6"
         sandbox="allow-scripts allow-same-origin allow-top-navigation"
         title="File display"
-        name="bfc61319-c056-41a3-96a8-159f473aab0f"
+        name="b39d6536-319f-4ffc-a723-c8c8fa6adea6"
       >
           Viewer requires iframe.
       </iframe>
