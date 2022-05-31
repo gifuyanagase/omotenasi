@@ -1,1415 +1,853 @@
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system">
-  <head>
-    <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://github.githubassets.com">
-  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
-  <link rel="preconnect" href="https://avatars.githubusercontent.com">
-
-
-
-  <link crossorigin="anonymous" media="all" integrity="sha512-ksfTgQOOnE+FFXf+yNfVjKSlEckJAdufFIYGK7ZjRhWcZgzAGcmZqqArTgMLpu90FwthqcCX4ldDgKXbmVMeuQ==" rel="stylesheet" href="https://github.githubassets.com/assets/light-92c7d381038e.css" /><link crossorigin="anonymous" media="all" integrity="sha512-1KkMNn8M/al/dtzBLupRwkIOgnA9MWkm8oxS+solP87jByEvY/g4BmoxLihRogKcX1obPnf4Yp7dI0ZTWO+ljg==" rel="stylesheet" href="https://github.githubassets.com/assets/dark-d4a90c367f0c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" integrity="sha512-cZa7DZqvMBwD236uzEunO/G1dvw8/QftyT2UtLWKQFEy0z0eq0R5WPwqVME+3NSZG1YaLJAaIqtU+m0zWf/6SQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-7196bb0d9aaf.css" /><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-WVoKqJ4y1nLsdNH4RkRT5qrM9+n9RFe1RHSiTnQkBf5TSZkJEc9GpLpTIS7T15EQaUQBJ8BwmKvwFPVqfpTEIQ==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-595a0aa89e32.css" /><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" integrity="sha512-XpAMBMSRZ6RTXgepS8LjKiOeNK3BilRbv8qEiA/M3m+Q4GoqxtHedOI5BAZRikCzfBL4KWYvVzYZSZ8Gp/UnUg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-5e900c04c491.css" /><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" integrity="sha512-3HF2HZ4LgEIQm77yOzoeR20CX1n2cUQlcywscqF4s+5iplolajiHV7E5ranBwkX65jN9TNciHEVSYebQ+8xxEw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-dc71761d9e0b.css" /><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" integrity="sha512-+J8j3T0kbK9/sL3zbkCfPtgYcRD4qQfRbT6xnfOrOTjvz4zhr0M7AXPuE642PpaxGhHs1t77cTtieW9hI2K6Gw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-f89f23dd3d24.css" /><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-AQeAx5wHQAXNf0DmkvVlHYwA3f6BkxunWTI0GGaRN57GqD+H9tW8RKIKlopLS0qGaC54seFsPc601GDlqIuuHg==" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-010780c79c07.css" /><link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" integrity="sha512-+u5pmgAE0T03d/yI6Ha0NWwz6Pk0W6S6WEfIt8veDVdK8NTjcMbZmQB9XUCkDlrBoAKkABva8HuGJ+SzEpV1Uw==" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-faee699a0004.css" />
-  
-    <link crossorigin="anonymous" media="all" integrity="sha512-hWiFpaVJG+3wHAdSwdg6RIbFZLU0r8cRNf89903QbJzJ/hhybi/ng6xSLFKySsz0n8AJ5IoQUnoD4K+rnO8qZg==" rel="stylesheet" href="https://github.githubassets.com/assets/primer-856885a5a549.css" />
-    <link crossorigin="anonymous" media="all" integrity="sha512-NItk2qJzkJmt6Oc5W6JaM+xfO4PV9jOw1e7/7QsKEGZq+fJi4DfQGAUP4hDlROmD4Vjrt1gS6Pt9c96Ko0aYdQ==" rel="stylesheet" href="https://github.githubassets.com/assets/global-348b64daa273.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-7IJmKQ+UuHbW0jikn65NK7GPXj4nX7QVv6KbQEhEFS1mypjAOdJ9IvwVUrcrthT1CES6o6xbG8RnDiBlY/rbDQ==" rel="stylesheet" href="https://github.githubassets.com/assets/blob-ec8266290f94.css" />
-<link crossorigin="anonymous" media="all" integrity="sha512-LWWHMRqd92mhrELviET+FHDxk58fuFZDpYvdxZFBbQMUp8QxvM2vsYTCJe2gKrpE1gcmCJIJ79s/9HeJvunXcQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-2d6587311a9d.css" />
-
-    <meta name="optimizely-datafile" content="{&quot;groups&quot;: [], &quot;environmentKey&quot;: &quot;production&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [{&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;20667381018&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;20680930759&quot;, &quot;key&quot;: &quot;treatment&quot;}], &quot;id&quot;: &quot;20652570897&quot;, &quot;key&quot;: &quot;project_genesis&quot;, &quot;layerId&quot;: &quot;20672300363&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;20667381018&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;20680930759&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;83356e17066d336d1803024138ecb683&quot;: &quot;treatment&quot;, &quot;18e31c8a9b2271332466133162a4aa0d&quot;: &quot;treatment&quot;, &quot;10f8ab3fbc5ebe989a36a05f79d48f32&quot;: &quot;treatment&quot;, &quot;1686089f6d540cd2deeaec60ee43ecf7&quot;: &quot;treatment&quot;}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;21440190065&quot;, &quot;key&quot;: &quot;control_b&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;21439580309&quot;, &quot;key&quot;: &quot;treatment_d&quot;}], &quot;id&quot;: &quot;21435481980&quot;, &quot;key&quot;: &quot;_260_contact_sales_redesign&quot;, &quot;layerId&quot;: &quot;21431681200&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;21440190065&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;21439580309&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {}}, {&quot;status&quot;: &quot;Running&quot;, &quot;audienceIds&quot;: [], &quot;variations&quot;: [{&quot;variables&quot;: [], &quot;id&quot;: &quot;21427950901&quot;, &quot;key&quot;: &quot;control&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;21429710665&quot;, &quot;key&quot;: &quot;beginner&quot;}, {&quot;variables&quot;: [], &quot;id&quot;: &quot;21437291543&quot;, &quot;key&quot;: &quot;upstart&quot;}], &quot;id&quot;: &quot;21445030708&quot;, &quot;key&quot;: &quot;_259_zero_user_dashboard&quot;, &quot;layerId&quot;: &quot;21434011841&quot;, &quot;trafficAllocation&quot;: [{&quot;entityId&quot;: &quot;21427950901&quot;, &quot;endOfRange&quot;: 3334}, {&quot;entityId&quot;: &quot;21427950901&quot;, &quot;endOfRange&quot;: 5000}, {&quot;entityId&quot;: &quot;21427950901&quot;, &quot;endOfRange&quot;: 8333}, {&quot;entityId&quot;: &quot;21427950901&quot;, &quot;endOfRange&quot;: 10000}], &quot;forcedVariations&quot;: {&quot;3c64268131793aa297119a343c19e345&quot;: &quot;beginner&quot;, &quot;95b24126db31ea8693c0fe5ea9f53b65&quot;: &quot;beginner&quot;, &quot;086e2abe64e9101112af53b95d2d90b9&quot;: &quot;upstart&quot;, &quot;bae688df9d297afac98e2d254e912ada&quot;: &quot;control&quot;, &quot;6c2cfda7c41396fcc31a4db759a42b94&quot;: &quot;beginner&quot;, &quot;16ed2b4ff7de02663b7c606309695916&quot;: &quot;control&quot;, &quot;1971768911.1635962195&quot;: &quot;beginner&quot;, &quot;830bf802470ec6c9c5800c99d8e57445&quot;: &quot;beginner&quot;}}], &quot;version&quot;: &quot;4&quot;, &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;anonymizeIP&quot;: true, &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [&quot;20652570897&quot;], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}, {&quot;experimentIds&quot;: [&quot;21435481980&quot;], &quot;id&quot;: &quot;20966790249&quot;, &quot;key&quot;: &quot;contact_sales.submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996500333&quot;, &quot;key&quot;: &quot;contact_sales.existing_customer&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996890162&quot;, &quot;key&quot;: &quot;contact_sales.blank_message_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21000470317&quot;, &quot;key&quot;: &quot;contact_sales.personal_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21002790172&quot;, &quot;key&quot;: &quot;contact_sales.blank_phone_field&quot;}, {&quot;experimentIds&quot;: [&quot;21445030708&quot;], &quot;id&quot;: &quot;21354412592&quot;, &quot;key&quot;: &quot;click.dismiss_create_readme&quot;}, {&quot;experimentIds&quot;: [&quot;21445030708&quot;], &quot;id&quot;: &quot;21366102546&quot;, &quot;key&quot;: &quot;click.dismiss_zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370252505&quot;, &quot;key&quot;: &quot;account_did_downgrade&quot;}, {&quot;experimentIds&quot;: [&quot;21445030708&quot;], &quot;id&quot;: &quot;21370840408&quot;, &quot;key&quot;: &quot;click.cta_create_readme&quot;}, {&quot;experimentIds&quot;: [&quot;21445030708&quot;], &quot;id&quot;: &quot;21375451068&quot;, &quot;key&quot;: &quot;click.cta_create_new_repository&quot;}, {&quot;experimentIds&quot;: [&quot;21445030708&quot;], &quot;id&quot;: &quot;21385390948&quot;, &quot;key&quot;: &quot;click.zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21467712175&quot;, &quot;key&quot;: &quot;click.downgrade_keep&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21484112202&quot;, &quot;key&quot;: &quot;click.downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21495292213&quot;, &quot;key&quot;: &quot;click.downgrade_survey_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21508241468&quot;, &quot;key&quot;: &quot;click.downgrade_survey_submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21512030356&quot;, &quot;key&quot;: &quot;click.downgrade_support&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21539090022&quot;, &quot;key&quot;: &quot;click.downgrade_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21543640644&quot;, &quot;key&quot;: &quot;click_fetch_upstream&quot;}], &quot;revision&quot;: &quot;1254&quot;}" />
-
-
-  <script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-607YFdOIYIo1omacNtpbzvQmErWUv6peLdaTSnmb3XdcpiMmEZNTjTqLUIeIaripy/pu5mDUUvxB509z9qgQbw==" src="https://github.githubassets.com/assets/runtime-eb4ed815d388.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-lpMDk4PtjhjWvvOmAOiAeKi4LzWyk4RXX/Xuo3Sqr4T4beoTdZdwiZRRl1xUXlgdqeymbqBb8+9qlWByOUXTfQ==" src="https://github.githubassets.com/assets/environment-9693039383ed.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-io+1MvgXPXTw8Kp4eOdNMJl8uGASuw8VfTY5VeIFETaAknimWi8GoxggMEeQ6mq0de4Dest4iIJ/9gUbCo0hgw==" src="https://github.githubassets.com/assets/vendors-node_modules_selector-observer_dist_index_esm_js-8a8fb532f817.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Es25N4GyPa8Yfp5wpahoe5b2fyPtkRMyR6mKIXyCJC0ocqQazeWvxhGZhx3StRxOfqDfHDR5SS35u/R3Wux6Cg==" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-12cdb93781b2.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-lmiecOIgf+hakg5oKMNM7grVhEDyPoIrT39Px448JJH5PSAaK21PH0Twgyz5O5oi8+dnlLr3Jt8bBCtAcpNdRw==" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-c7e9ed-96689e70e220.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-fnGjXJYNyoXa0hbrHm+R1+9VQiHwIAA6KSfdu32eSgiHRp6p6hGG7Ttm/9M4IMC3WliRy+L8+nQQ0sL7koHMwQ==" src="https://github.githubassets.com/assets/vendors-node_modules_github_catalyst_lib_index_js-node_modules_github_time-elements_dist_index_js-7e71a35c960d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-6ehrOOu5AOQD8/Lw6TgTsdkj9odsrpi0xWo0vkH3wBR3vIw/Bj/Rxw9wZMfw2qVzdqqF/pCiaJ5f0A/P6HtGrw==" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-52e104-e9e86b38ebb9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-l//8hwOiwPAmBg0NwsWUYovdQ7/r9kPHiD9/LL4fD3M7El8gbgaOYU5+o6cYLB6puSfOTxyN9M6fE38HSDr2Bw==" src="https://github.githubassets.com/assets/github-elements-97fffc8703a2.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-SmfWVP12aEsRNtNJt/QDgkIBF4q/SYjkEV6znSJ1bLNugPr3ql8BGgUYkf3DHXgT5bqzGQ8ag8xmKnhlgzOWSA==" src="https://github.githubassets.com/assets/element-registry-4a67d654fd76.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-uo73yUZcm4EicwjSbfxFZcKfjWniOxhLBp+q1n7IFRfutFM6/lzbQMgD0Xrxp7QD1HzqdvrV8UclPhi3mEOyzQ==" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-ba8ef7c9465c.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-7sLnYdsk7RJWXLU10jPbb09+W4x0++uLlFoFXBhLGiZdKEm5a7YXqmMMfyp33WHx3tgEF0qWbl6QEcUwD3vOig==" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-87b1b3-eec2e761db24.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Bnf8o3mR3y9eUXe5GjT532GNmyXVC28/saIQPm2tX+cM1M6T7VfMevPSBOnK8x0sTDK/Y49JSgCcSeR9weMQNA==" src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_js-0677fca37991.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-0r1nf/rfPz54kyePp4f63bcPxkFo7wyaUZJD/SwIVDK3q0WzurAK9ydOm88tzKtPJm8xWI0Vo25NyCfecwxJ9g==" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-d2bd677ffadf.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-VK56d0N1hPZ20mOzPoy84zlTGCjGbKKmVvfjoyDqSF+VxTD4f6X8QDs2RgG1R1cdBmsCiea+ZxP6ukV3tHlD+Q==" src="https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-df2537-54ae7a774375.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-OH+TfwrpQEJZ/tHRyiBbMMWdSdgL4qTcfuK8eDA/BDuz+HkpCvxTPZv2X7321ojwCESAgnblfuI88VXthIVo0w==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_pjax_ts-387f937f0ae9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-2hsYB2KHyayxUJJxJGhXeTeTZZG2c7lzRtO0uB1txmpc7rfvIt4mf0iossT0MHIHknYlaslgi98jmmlVXcXaZQ==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-af52ef-da1b18076287.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-gartM6+bnL61sbEk/ehBSZQMYeAiBd9UKmDlxHi1M5qYlExo4ITgfM31cKytd5TQ3n6bk8EaSAvAI8x2eRKA7Q==" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_details_ts-app_assets_modules_github_behaviors_include-fr-34e1f7-81aaed33af9b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-RDrmZBPJ32rCcoClUbMRuzHeO8/sFh6b/qM5v+InzosthKaaJwyAkREXtbsrV9MKqldOaftk+hnQjEZTKU9oDw==" src="https://github.githubassets.com/assets/behaviors-443ae66413c9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-piIlogi3znuMF1GWV8p3J+9yii48cjBlb1VyLj+tiOGtvs1PqVevHiwMYDlfbOZbPBxP2ocD45fmp0/AFiiDzA==" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-6e358f-a62225a208b7.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-5UsMjG3cUJJRhqia7MXfpyQsrFEfCP2P0JObVSCRRqhDfzX4O0LLCHWyFeGUZRrp3DMImPYOFZurpZdmDN3X4A==" src="https://github.githubassets.com/assets/notifications-global-e54b0c8c6ddc.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-F2SXMZqmxRkFqNNEibrTdR1mbEplGxQb+UEwflrvU8GraZF4+y0XeTBwEXjWHFOA7OvT1B22XRPEm/RPMi68ew==" src="https://github.githubassets.com/assets/vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-05bb82-176497319aa6.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-oYwCqLW1SgevunLp/FbAC2jMLcWgsjz9TtXwHiwkc0RUA+n9qUI4+BBsbH/JA+dQ2O1TSWjNqHhycI+YbtF5GQ==" src="https://github.githubassets.com/assets/optimizely-a18c02a8b5b5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-yG3t7Lpt5yKkdMNXFpl75Xemm+g4ghZ5e8xRBwl/HMbmgc3htVvxrjbohbK9MMfnnci1SnogZNH9DhJHYdQf3A==" src="https://github.githubassets.com/assets/vendors-node_modules_virtualized-list_es_index_js-node_modules_github_template-parts_lib_index_js-c86dedecba6d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-oHngriflWh+9P7gIQ7o/BAtX9AKL/g+jXQHIevYCLo35CGHkhVvZkHlI6Mf+S9Qvu2K7MgWLrRplB3kfG7scbA==" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_remote-form_-2c55be-a079e0ae27e5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-FNWxKHkUqs6+xuyyZpMx9BmvcxQqIgVJ5A+PmdU82lZO41cFlo6y6ddHkRfWh2Zd6j9ozvndvrTaOuEH58VvEw==" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_filter--fd67a9-14d5b1287914.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-e1KoVFLp3lYt2ANPy9eg/lux8nLcAtTwWLd7F6ul/1uyw5BCx118juiM+STEPDlYdrLTHMs/k0y8kBVO+Q3RIQ==" src="https://github.githubassets.com/assets/app_assets_modules_github_fetch_ts-app_assets_modules_github_form_ts-app_assets_modules_githu-dec477-7b52a85452e9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Bab35GRL9mIRYnrCyFOlvpOMCrXSqKKfwu5TOMTTckrz2baJnN5nnu/r6lQHuQVxcgm63sXCpdp6uylQJMRoRg==" src="https://github.githubassets.com/assets/repositories-05a6f7e4644b.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" integrity="sha512-Mc2pkINU6rlGF10IG+S/Gq7oIDIiOUE+tIxB2E2EetcNdSBNyELodHrJx1LjqDM/ew8TKZaoNOIn428Pwt+C0Q==" src="https://github.githubassets.com/assets/diffs-31cda9908354.js"></script>
-  
-
-  <title>omotenasi/shusei.svg at master · gifuyanagase/omotenasi · GitHub</title>
-
-
-
-    
-
-  <meta name="request-id" content="0402:2DE8:571D3D:8FF22E:6295C94D" data-pjax-transient="true"/><meta name="html-safe-nonce" content="25075a16fe7fe6db172bd644c825d5cb40e865d9fdaf08358458cb7b075a8419" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAyOjJERTg6NTcxRDNEOjhGRjIyRTo2Mjk1Qzk0RCIsInZpc2l0b3JfaWQiOiIyMzQzMjQwOTU3NTYxMjYwMzY1IiwicmVnaW9uX2VkZ2UiOiJpYWQiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="e74995ce564f57d32f02eee561fbd28e055bf3bf4b394296b1b3cfe7fddb18ef" data-pjax-transient="true"/>
-
-    <meta name="hovercard-subject-tag" content="repository:496489784" data-pjax-transient>
-
-
-  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
-  
-
-  <meta name="selected-link" value="repo_source" data-pjax-transient>
-
-    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
-  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-
-<meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-
-  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
-
-  
-
-
-
-
-  
-
-    <meta name="user-login" content="">
-
-    <meta name="viewport" content="width=device-width">
-    
-      <meta name="description" content="おもてなしマップです. Contribute to gifuyanagase/omotenasi development by creating an account on GitHub.">
-      <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
-    <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/a653b9e614210365a5e1bc241e22c27dba5d0dc3de369b545e5905feaad8c128/gifuyanagase/omotenasi" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="omotenasi/shusei.svg at master · gifuyanagase/omotenasi" /><meta name="twitter:description" content="おもてなしマップです. Contribute to gifuyanagase/omotenasi development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/a653b9e614210365a5e1bc241e22c27dba5d0dc3de369b545e5905feaad8c128/gifuyanagase/omotenasi" /><meta property="og:image:alt" content="おもてなしマップです. Contribute to gifuyanagase/omotenasi development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="omotenasi/shusei.svg at master · gifuyanagase/omotenasi" /><meta property="og:url" content="https://github.com/gifuyanagase/omotenasi" /><meta property="og:description" content="おもてなしマップです. Contribute to gifuyanagase/omotenasi development by creating an account on GitHub." />
-      
-    <link rel="assets" href="https://github.githubassets.com/">
-    
-
-
-        <meta name="hostname" content="github.com">
-
-
-
-        <meta name="expected-hostname" content="github.com">
-
-
-
-
-  <meta http-equiv="x-pjax-version" content="51e093a36b98ccf258985b61ea125560db705eda83aedd46893b04c52d3685a3" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-csp-version" content="485d6a5ccbb1eeae9c86b616b4870b531f6f458e8bd5c309c40280dc4f51defb" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-css-version" content="d4dd0149f0a511949e9c3d7a532bb5f7cfced762610073928605698559808d4e" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-js-version" content="8ec22d4550b2bdf9eec9419dce062c3d5baad9b1c4befd6934d66aa8faf00a05" data-turbo-track="reload">
-
-  <meta name="turbo-cache-control" content="no-preview"></meta>
-
-    
-  <meta name="go-import" content="github.com/gifuyanagase/omotenasi git https://github.com/gifuyanagase/omotenasi.git">
-
-  <meta name="octolytics-dimension-user_id" content="106296004" /><meta name="octolytics-dimension-user_login" content="gifuyanagase" /><meta name="octolytics-dimension-repository_id" content="496489784" /><meta name="octolytics-dimension-repository_nwo" content="gifuyanagase/omotenasi" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="496489784" /><meta name="octolytics-dimension-repository_network_root_nwo" content="gifuyanagase/omotenasi" />
-
-
-
-    <link rel="canonical" href="https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-pjax-transient>
-
-
-  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-
-  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-
-  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
-
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-
-<meta name="theme-color" content="#1e2327">
-<meta name="color-scheme" content="light dark" />
-
-
-  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class="logged-out env-production page-responsive page-blob" style="word-wrap: break-word;">
-    
-
-    <div class="position-relative js-header-wrapper ">
-      <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-      <span data-view-component="true" class="progress-pjax-loader js-pjax-loader-bar Progress position-fixed width-full">
-    <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
-</span>      
-      
-
-
-        
-
-            <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
-  <div class="container-xl d-lg-flex flex-items-center p-responsive">
-    <div class="d-flex flex-justify-between flex-items-center">
-      <a class="mr-4 color-fg-inherit" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
-        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
-    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="95px" height="95px" viewBox="0 0 95 95" enable-background="new 0 0 95 95" xml:space="preserve">
+<image overflow="visible" width="358" height="283" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQA
+AAABAAAAJgAAAAAAAqACAAQAAAABAAABZqADAAQAAAABAAABGwAAAAD/7QA4UGhvdG9zaG9wIDMu
+MAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCyBOmACZjs+EJ+/+IMWElDQ19QUk9GSUxF
+AAEBAAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQAAAAASUVDIHNS
+R0IAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1IUCAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAARY3BydAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAU
+YmtwdAAAAgQAAAAUclhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQA
+AABwZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAAA/gAAAAUbWVhcwAA
+BAwAAAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RSQwAABDwAAAgMYlRSQwAABDwAAAgMdGV4
+dAAAAABDb3B5cmlnaHQgKGMpIDE5OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAA
+AAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQAB
+AAAAARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABi
+mQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5p
+ZWMuY2gAAAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZh
+dWx0IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZh
+dWx0IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAA
+AAAALFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAA
+ACxSZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAB2aWV3AAAAAAATpP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAA
+AABMCVYAUAAAAFcf521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAA
+Q1JUIGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAARQBKAE8AVABZAF4A
+YwBoAG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCyALcAvADBAMYAywDQANUA2wDgAOUA6wDw
+APYA+wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakB
+sQG5AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKs
+ArYCwQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD
++QQGBBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWG
+BZYFpgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EH
+dAeGB5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmk
+CboJzwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoM
+QwxcDHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8l
+D0EPXg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQS
+hBKjEsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYm
+FkkWbBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioa
+URp3Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+
+HukfEx8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5Qj
+wiPwJB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkG
+KTgpaymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu
+7i8kL1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUT
+NU01hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o7
+6DwnPGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3
+QzpDfUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1K
+xEsMS1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLH
+UxNTX1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0Vb
+lVvlXDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSU
+ZOllPWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJu
+a27Ebx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhu
+eMx5KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSD
+V4O6hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45m
+js6PNo+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfya
+aJrVm0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaL
+pv2nbqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCsziz
+rrQltJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDs
+wWfB48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbP
+N8+40DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W
+3hzeot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77Ibt
+Ee2c7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY
+/Sn9uv5L/tz/bf///8AAEQgBGwFmAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgME
+BQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEV
+UtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3
+eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh
+4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALUR
+AAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDTh
+JfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJ
+ipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz
+9PX29/j5+v/bAEMAAQEBAQEBAgEBAgMCAgIDBAMDAwMEBQQEBAQEBQYFBQUFBQUGBgYGBgYGBgcH
+BwcHBwgICAgICQkJCQkJCQkJCf/bAEMBAQEBAgICBAICBAkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJ
+CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCf/dAAQAF//aAAwDAQACEQMRAD8A/v4ooooA
+KKKKACiiigCKeeC1ge6unWOKNSzuxAVVAySSeAAOpr4X0X/gp1/wT+8Q69F4Z0n4t+G5b2eTyo0N
+6ihnzjAZsLyeBzzX4vf8HE//AAUZ1b4T+C7P9i34M6osGs+Krdp/EtxbyETWunZAjtQVI2NdkNv5
+yIlKlcSA1/EqQCelfkXF3ic8Di/quFgpcvxN9+yt26/d0P8AUf6LX7O2PGnDC4k4hxU8Oq38GMEm
+3FXXPLmW0n8KVrxXNe0lb/XW8MeLvCvjbS11zwfqVtqlmxwJ7SVJoycA43ISM4I4roq/y7v2Lv8A
+goX+1D+wP4sl134F6wFsbsf6bo2oq8+nXGcHc8AdCkmAMSRsj44JK8V/cd/wSa/4Ks6P/wAFI/C/
+iKx8QaJb+FfFvhiSHz9PhujcrcWsyfLdRlo4yo8wOjJ823Cncd3HtcK+IuEzKccPNclR9N0/R/52
++Z+QfSV+gfxNwBQq5zQmsTgIWvUVoyjdpLnptt7tK8XJdXbY/YOiiiv0M/hcKKK+fv2of2mfhZ+y
+D8FNX+PnxkuJrfQdG8oTfZ4/Nmd55VhjSNMjczO4HUAdSQATWVevClB1Kjslq32R6OT5RiswxdLA
+4Gm51aklGMYq7lKTskl1beiPjn/grp+y58e/2p/2T7nw7+zZr99o/ivQrtdVtrSzuTajUhCjBrV3
+BX5mzuiywXzAu445H8FXin9pD/goL+z94sm8BeL/AB3438J6xpw8p7OfUr22liUksAFMg+QtyCOD
+1Br+in4o/wDB0jaw/EO1i+DHwwkuvCsLj7TLq94tvfToTzsjhWaOIgcjMj5PXFfSmj/8FAP+COX/
+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" transform="matrix(0.225 0 0 0.225 6.8145 4.8584)">
+</image>
+<text transform="matrix(1 0 0 1 5 83.7236)" font-family="'HGSSoeiKakupoptai'" font-size="12">ぎふ柳ヶ瀬会場</text>
 </svg>
-      </a>
-
-        <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
-          
-
-        </div>
-
-      <div class="d-flex flex-items-center">
-            <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
-              class="d-inline-block d-lg-none f5 no-underline border color-border-default rounded-2 px-2 py-1 mr-3 mr-sm-5 color-fg-inherit"
-              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b92db57b7686a23f5604fff4caa6c06f4836bd572cf1c6b133bf9f16250b060c"
-            >
-              Sign&nbsp;up
-            </a>
-
-        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link d-lg-none mt-1 color-fg-inherit">  <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-three-bars">
-    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
-</svg>
-  
-</button>      </div>
-    </div>
-
-    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
-      <div class="d-flex d-lg-none flex-justify-end border-bottom color-bg-subtle p-3">
-        <button aria-label="Toggle navigation" aria-expanded="false" type="button" data-view-component="true" class="js-details-target btn-link">  <svg aria-hidden="true" height="24" viewBox="0 0 24 24" version="1.1" width="24" data-view-component="true" class="octicon octicon-x color-fg-muted">
-    <path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path>
-</svg>
-  
-</button>      </div>
-
-        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
-          <ul class="d-lg-flex list-style-none">
-              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <details class="HeaderMenu-details details-overlay details-reset width-full">
-      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-        Product
-        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
-      </summary>
-      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-        <ul class="list-style-none f5 pb-1">
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Features&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Features;&quot;}" href="/features">
-      Features
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Mobile&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Mobile;&quot;}" href="/mobile">
-      Mobile
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Actions&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Actions;&quot;}" href="/features/actions">
-      Actions
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Codespaces&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Codespaces;&quot;}" href="/features/codespaces">
-      Codespaces
-</a>  </li>
-
-            
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Packages&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Packages;&quot;}" href="/features/packages">
-      Packages
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Security&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Security;&quot;}" href="/features/security">
-      Security
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Code review&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Code review;&quot;}" href="/features/code-review">
-      Code review
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Issues&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Issues;&quot;}" href="/features/issues">
-      Issues
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Integrations&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Integrations;&quot;}" href="/features/integrations">
-      Integrations
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to GitHub Sponsors&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:GitHub Sponsors;&quot;}" href="/sponsors">
-      GitHub Sponsors
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Product&quot;,&quot;action&quot;:&quot;click to go to Customer stories&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Customer stories;&quot;}" href="/customer-stories">
-      Customer stories
-</a>  </li>
-
-        </ul>
-      </div>
-    </details>
-</li>
-
-
-              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Team&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Team;&quot;}" href="/team">Team</a>
-</li>
-
-              <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Enterprise&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Enterprise;&quot;}" href="/enterprise">Enterprise</a>
-</li>
-
-
-            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <details class="HeaderMenu-details details-overlay details-reset width-full">
-      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-        Explore
-        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
-      </summary>
-      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-        <ul class="list-style-none f5 pb-1">
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Explore GitHub&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Explore GitHub;&quot;}" href="/explore">
-      Explore GitHub
-</a>  </li>
-
-              <li class="color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1">Learn and contribute</li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Topics&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Topics;&quot;}" href="/topics">
-      Topics
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Collections&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Collections;&quot;}" href="/collections">
-      Collections
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Trending&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Trending;&quot;}" href="/trending">
-      Trending
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Learning Lab&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Learning Lab;&quot;}" href="https://lab.github.com/">
-      Learning Lab
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Open source guides&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Open source guides;&quot;}" href="https://opensource.guide">
-      Open source guides
-</a>  </li>
-
-              <li class="color-fg-muted text-normal f6 text-mono mb-1 border-top pt-3 mt-3 mb-1">Connect with others</li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to The ReadME Project&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:The ReadME Project;&quot;}" href="/readme">
-      The ReadME Project
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Events&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Events;&quot;}" href="/events">
-      Events
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to Community forum&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Community forum;&quot;}" href="https://github.community">
-      Community forum
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Education&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:GitHub Education;&quot;}" href="https://education.github.com">
-      GitHub Education
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Explore&quot;,&quot;action&quot;:&quot;click to go to GitHub Stars program&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:GitHub Stars program;&quot;}" href="https://stars.github.com">
-      GitHub Stars program
-</a>  </li>
-
-        </ul>
-      </div>
-    </details>
-</li>
-
-
-            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <a class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-event="{&quot;category&quot;:&quot;Header menu top item (logged out)&quot;,&quot;action&quot;:&quot;click to go to Marketplace&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Marketplace;&quot;}" href="/marketplace">Marketplace</a>
-</li>
-
-
-            <li class="mr-0 mr-lg-3 position-relative flex-wrap flex-justify-between flex-items-center border-bottom border-lg-bottom-0 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center">
-    <details class="HeaderMenu-details details-overlay details-reset width-full">
-      <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
-        Pricing
-        <svg x="0" y="0" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative"><path d="M1,1l6.2,6L13,1"></path></svg>
-      </summary>
-      <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
-        <ul class="list-style-none f5 pb-1">
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Plans&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Plans;&quot;}" href="/pricing">
-      Plans
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Compare plans&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Compare plans;&quot;}" href="/pricing#compare-features">
-      Compare plans
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--secondary py-2" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Contact Sales&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Contact Sales;&quot;}" href="https://github.com/enterprise/contact">
-      Contact Sales
-</a>  </li>
-
-              <li>
-    <a class="lh-condensed-ultra d-block no-underline position-relative Link--primary text-bold border-top pt-4 pb-2 mt-3" data-analytics-event="{&quot;category&quot;:&quot;Header dropdown (logged out), Pricing&quot;,&quot;action&quot;:&quot;click to go to Education&quot;,&quot;label&quot;:&quot;ref_page:/gifuyanagase/omotenasi/blob/master/public/shusei.svg;ref_cta:Education;&quot;}" href="https://education.github.com">
-      Education
-</a>  </li>
-
-        </ul>
-      </div>
-    </details>
-</li>
-
-          </ul>
-        </nav>
-
-      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
-          <div class="d-lg-flex min-width-0 mb-3 mb-lg-0">
-            
-
-
-
-<div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
->
-  <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="496489784" data-scoped-search-url="/gifuyanagase/omotenasi/search" data-owner-scoped-search-url="/users/gifuyanagase/search" data-unscoped-search-url="/search" data-turbo="false" action="/gifuyanagase/omotenasi/search" accept-charset="UTF-8" method="get">
-      <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
-        <input type="text"
-          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
-          data-hotkey=s,/
-          name="q"
-          data-test-selector="nav-search-input"
-          placeholder="Search"
-          data-unscoped-placeholder="Search GitHub"
-          data-scoped-placeholder="Search"
-          autocapitalize="off"
-          role="combobox"
-          aria-haspopup="listbox"
-          aria-expanded="false"
-          aria-autocomplete="list"
-          aria-controls="jump-to-results"
-          aria-label="Search"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
-          spellcheck="false"
-          autocomplete="off"
-        >
-        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="Y7DYrI5HEv6XzQOgwIEBIy92AW0+72qfeaBOqfnlmBBGOoXpYLUfutrw/noTT68esz8h4zycLFVFmvAUAcwuCQ==" />
-        <input type="hidden" class="js-site-search-type-field" name="type" >
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
-
-
-          <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-            
-<ul class="d-none js-jump-to-suggestions-template-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-</svg>
-      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
-</svg>
-      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-</svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-</ul>
-
-<ul class="d-none js-jump-to-no-results-template-container">
-  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
-    <span class="color-fg-muted">No suggested jump to results</span>
-  </li>
-</ul>
-
-<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-</svg>
-      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
-</svg>
-      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-</svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-owner-scoped-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="owner_scoped_search">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-</svg>
-      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
-</svg>
-      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-</svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this user">
-        In this user
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-  
-
-<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
-  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
-    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
-      <svg title="Repository" aria-label="Repository" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo js-jump-to-octicon-repo d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-</svg>
-      <svg title="Project" aria-label="Project" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-project js-jump-to-octicon-project d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path>
-</svg>
-      <svg title="Search" aria-label="Search" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search js-jump-to-octicon-search d-none flex-shrink-0">
-    <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
-</svg>
-    </div>
-
-    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
-
-    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
-    </div>
-
-    <div class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none js-jump-to-badge-search">
-      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
-        In this repository
-      </span>
-      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
-        All GitHub
-      </span>
-      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-
-    <div aria-hidden="true" class="border rounded-2 flex-shrink-0 color-bg-subtle px-1 color-fg-muted ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
-      Jump to
-      <span class="d-inline-block ml-1 v-align-middle">↵</span>
-    </div>
-  </a>
-</li>
-
-
-</ul>
-
-          </div>
-      </label>
-</form>  </div>
-</div>
-
-          </div>
-
-        <div class="position-relative mr-3 mb-4 mb-lg-0 d-inline-block">
-          <a href="/login?return_to=https%3A%2F%2Fgithub.com%2Fgifuyanagase%2Fomotenasi%2Fblob%2Fmaster%2Fpublic%2Fshusei.svg"
-            class="HeaderMenu-link flex-shrink-0 no-underline"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5a194de39ced166ae9762bb0f8337aaddc9382a593a0cf74a21dd3328e4c30f9"
-            data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
-            Sign in
-          </a>
-        </div>
-
-          <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=gifuyanagase%2Fomotenasi"
-            class="HeaderMenu-link flex-shrink-0 d-inline-block no-underline border color-border-default rounded px-2 py-1"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5a194de39ced166ae9762bb0f8337aaddc9382a593a0cf74a21dd3328e4c30f9"
-            data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out&quot;}"
-          >
-            Sign up
-          </a>
-      </div>
-    </div>
-  </div>
-</header>
-
-    </div>
-
-  <div id="start-of-content" class="show-on-focus"></div>
-
-
-
-
-
-
-
-    <div data-pjax-replace id="js-flash-container">
-
-
-  <template class="js-flash-template">
-    <div class="flash flash-full  {{ className }}">
-  <div class="px-2" >
-    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-    </button>
-    
-      <div>{{ message }}</div>
-
-  </div>
-</div>
-  </template>
-</div>
-
-
-    
-
-  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
-
-
-
-
-
-  <div
-    class="application-main "
-    data-commit-hovercards-enabled
-    data-discussion-hovercards-enabled
-    data-issue-and-pr-hovercards-enabled
-  >
-        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main id="js-repo-pjax-container" data-pjax-container >
-      
-  
-
-    
-
-
-
-
-
-
-  <div id="repository-container-header" class="pt-3 hide-full-screen" style="background-color: var(--color-page-header-bg);" data-pjax-replace>
-
-      <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
-
-        <div class="flex-auto min-width-0 width-fit mr-3">
-            <h2 class=" d-flex flex-wrap flex-items-center wb-break-word f3 text-normal">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo color-fg-muted mr-2">
-    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
-</svg>
-  <span class="author flex-self-stretch" itemprop="author">
-    <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/gifuyanagase/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/gifuyanagase">gifuyanagase</a>
-  </span>
-  <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
-  <strong itemprop="name" class="mr-2 flex-self-stretch">
-    <a data-pjax="#repo-content-pjax-container" href="/gifuyanagase/omotenasi">omotenasi</a>
-  </strong>
-
-  <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
-</h2>
-  <span class="text-small lh-condensed-ultra no-wrap mt-1 color-fg-muted" data-repository-hovercards-enabled>
-    generated from <a data-hovercard-type="repository" data-hovercard-url="/geoloniamaps/pwamap/hovercard" href="/geoloniamaps/pwamap">geoloniamaps/pwamap</a>
-  </span>
-
-        </div>
-
-          <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
-
-    
-
-  <li>
-      <a href="/login?return_to=%2Fgifuyanagase%2Fomotenasi" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8a0c3bda5075728de5a345c38dbef9db86a03a8b0c49a59e1caf7ff11871527f" aria-label="You must be signed in to change notification settings" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
-    <path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path>
-</svg>Notifications
-  
-</a>
-  </li>
-
-  <li>
-        <a href="/login?return_to=%2Fgifuyanagase%2Fomotenasi" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:496489784,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="563fba38afc11fb9f4e6f8c4f55355610203e476bd3816a2763ad9ab163da64b" aria-label="You must be signed in to fork a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
-    <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
-</svg>Fork
-    <span id="repo-network-counter" data-pjax-replace="true" title="0" data-view-component="true" class="Counter">0</span>
-  
-</a>
-  </li>
-
-  <li>
-        <div data-view-component="true" class="BtnGroup d-flex">
-      <a href="/login?return_to=%2Fgifuyanagase%2Fomotenasi" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:496489784,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="855430cffe76e130755ba6a63d5b03187026c2f348f91d230c43bb3486d6baae" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-s btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
-    <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
-</svg><span data-view-component="true" class="d-inline">
-          Star
-</span>          <span id="repo-stars-counter-star" aria-label="0 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-pjax-replace="true" title="0" data-view-component="true" class="Counter js-social-count">0</span>
-  
-</a>      <button disabled="disabled" aria-label="You must be signed in to add this repository to a list" type="button" data-view-component="true" class="btn-sm btn BtnGroup-item px-2">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
-    <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
-</svg>
-  
-</button></div>
-  </li>
-
-  
-
-</ul>
-
-      </div>
-
-      <div id="responsive-meta-container" data-pjax-replace>
-</div>
-
-
-        
-<nav data-pjax="#js-repo-pjax-container" aria-label="Repository" data-view-component="true" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5">
-
-  <ul data-view-component="true" class="UnderlineNav-body list-style-none">
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/gifuyanagase/omotenasi" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /gifuyanagase/omotenasi" data-pjax="#repo-content-pjax-container" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
-</svg>
-          <span data-content="Code">Code</span>
-            <span id="code-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="issues-tab" href="/gifuyanagase/omotenasi/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /gifuyanagase/omotenasi/issues" data-pjax="#repo-content-pjax-container" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
-    <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
-</svg>
-          <span data-content="Issues">Issues</span>
-            <span id="issues-repo-tab-count" data-pjax-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="pull-requests-tab" href="/gifuyanagase/omotenasi/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /gifuyanagase/omotenasi/pulls" data-pjax="#repo-content-pjax-container" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
-</svg>
-          <span data-content="Pull requests">Pull requests</span>
-            <span id="pull-requests-repo-tab-count" data-pjax-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="actions-tab" href="/gifuyanagase/omotenasi/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /gifuyanagase/omotenasi/actions" data-pjax="#repo-content-pjax-container" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Actions&quot;,&quot;action&quot;:&quot;clicked&quot;,&quot;label&quot;:&quot;ref_cta:Actions;ref_loc:navigation_helper&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
-</svg>
-          <span data-content="Actions">Actions</span>
-            <span id="actions-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="projects-tab" href="/gifuyanagase/omotenasi/projects?type=beta" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /gifuyanagase/omotenasi/projects?type=beta" data-pjax="#repo-content-pjax-container" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v3.585a.746.746 0 010 .83v8.085A1.75 1.75 0 0114.25 16H6.309a.748.748 0 01-1.118 0H1.75A1.75 1.75 0 010 14.25V6.165a.746.746 0 010-.83V1.75zM1.5 6.5v7.75c0 .138.112.25.25.25H5v-8H1.5zM5 5H1.5V1.75a.25.25 0 01.25-.25H5V5zm1.5 1.5v8h7.75a.25.25 0 00.25-.25V6.5h-8zm8-1.5h-8V1.5h7.75a.25.25 0 01.25.25V5z"></path>
-</svg>
-          <span data-content="Projects">Projects</span>
-            <span id="projects-repo-tab-count" data-pjax-replace="" title="0" hidden="hidden" data-view-component="true" class="Counter">0</span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="wiki-tab" href="/gifuyanagase/omotenasi/wiki" data-tab-item="i5wiki-tab" data-selected-links="repo_wiki /gifuyanagase/omotenasi/wiki" data-pjax="#repo-content-pjax-container" data-hotkey="g w" data-ga-click="Repository, Navigation click, Wikis tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path>
-</svg>
-          <span data-content="Wiki">Wiki</span>
-            <span id="wiki-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="security-tab" href="/gifuyanagase/omotenasi/security" data-tab-item="i6security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /gifuyanagase/omotenasi/security" data-pjax="#repo-content-pjax-container" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
-</svg>
-          <span data-content="Security">Security</span>
-            <include-fragment src="/gifuyanagase/omotenasi/security/overall-count" accept="text/fragment+html"></include-fragment>
-
-    
-</a></li>
-      <li data-view-component="true" class="d-inline-flex">
-  <a id="insights-tab" href="/gifuyanagase/omotenasi/pulse" data-tab-item="i7insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /gifuyanagase/omotenasi/pulse" data-pjax="#repo-content-pjax-container" data-ga-click="Repository, Navigation click, Insights tab" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
-    
-                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
-    <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
-</svg>
-          <span data-content="Insights">Insights</span>
-            <span id="insights-repo-tab-count" data-pjax-replace="" title="Not available" data-view-component="true" class="Counter"></span>
-
-
-    
-</a></li>
-</ul>
-    <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <details data-view-component="true" class="details-overlay details-reset position-relative">
-  <summary role="button" data-view-component="true">          <div class="UnderlineNav-item mr-0 border-0">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
-    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-</svg>
-            <span class="sr-only">More</span>
-          </div>
-</summary>
-  <div data-view-component="true">          <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">
-  
-            <ul>
-                <li data-menu-item="i0code-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /gifuyanagase/omotenasi" href="/gifuyanagase/omotenasi">
-                    Code
-</a>                </li>
-                <li data-menu-item="i1issues-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /gifuyanagase/omotenasi/issues" href="/gifuyanagase/omotenasi/issues">
-                    Issues
-</a>                </li>
-                <li data-menu-item="i2pull-requests-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /gifuyanagase/omotenasi/pulls" href="/gifuyanagase/omotenasi/pulls">
-                    Pull requests
-</a>                </li>
-                <li data-menu-item="i3actions-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /gifuyanagase/omotenasi/actions" href="/gifuyanagase/omotenasi/actions">
-                    Actions
-</a>                </li>
-                <li data-menu-item="i4projects-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /gifuyanagase/omotenasi/projects?type=beta" href="/gifuyanagase/omotenasi/projects?type=beta">
-                    Projects
-</a>                </li>
-                <li data-menu-item="i5wiki-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_wiki /gifuyanagase/omotenasi/wiki" href="/gifuyanagase/omotenasi/wiki">
-                    Wiki
-</a>                </li>
-                <li data-menu-item="i6security-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /gifuyanagase/omotenasi/security" href="/gifuyanagase/omotenasi/security">
-                    Security
-</a>                </li>
-                <li data-menu-item="i7insights-tab" hidden>
-                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /gifuyanagase/omotenasi/pulse" href="/gifuyanagase/omotenasi/pulse">
-                    Insights
-</a>                </li>
-            </ul>
-
-</details-menu></div>
-</details></div>
-</nav>
-  </div>
-
-
-
-<div id="repo-content-pjax-container" class="repository-content " >
-  
-  
-
-
-  
-      
-  <div class="clearfix container-xl px-3 px-md-4 px-lg-5 mt-4">
-    
-    
-<div>
-  
-
-  
-
-
-
-
-    
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/gifuyanagase/omotenasi/blob/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg">Permalink</a>
-
-<div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
-  
-<div class="position-relative">
-  <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
-    <summary class="btn css-truncate"
-            data-hotkey="w"
-            title="Switch branches or tags">
-      <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch">
-    <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
-</svg>
-      <span class="css-truncate-target" data-menu-button>master</span>
-      <span class="dropdown-caret"></span>
-    </summary>
-
-    
-<div class="SelectMenu">
-  <div class="SelectMenu-modal">
-    <header class="SelectMenu-header">
-      <span class="SelectMenu-title">Switch branches/tags</span>
-      <button class="SelectMenu-closeButton" type="button" data-toggle-for="branch-select-menu"><svg aria-label="Close menu" aria-hidden="false" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg></button>
-    </header>
-
-    <input-demux data-action="tab-container-change:input-demux#storeInput tab-container-changed:input-demux#updateInput">
-      <tab-container class="d-flex flex-column js-branches-tags-tabs" style="min-height: 0;">
-        <div class="SelectMenu-filter">
-          <input data-target="input-demux.source"
-                 id="context-commitish-filter-field"
-                 class="SelectMenu-input form-control"
-                 aria-owns="ref-list-branches"
-                 data-controls-ref-menu-id="ref-list-branches"
-                 autofocus
-                 autocomplete="off"
-                 aria-label="Filter branches/tags"
-                 placeholder="Filter branches/tags"
-                 type="text"
-          >
-        </div>
-
-        <div class="SelectMenu-tabs" role="tablist" data-target="input-demux.control" >
-          <button class="SelectMenu-tab" type="button" role="tab" aria-selected="true">Branches</button>
-          <button class="SelectMenu-tab" type="button" role="tab">Tags</button>
-        </div>
-
-        <div role="tabpanel" id="ref-list-branches" data-filter-placeholder="Filter branches/tags" tabindex="" class="d-flex flex-column flex-auto overflow-auto">
-          <ref-selector
-            type="branch"
-            data-targets="input-demux.sinks"
-            data-action="
-              input-entered:ref-selector#inputEntered
-              tab-selected:ref-selector#tabSelected
-              focus-list:ref-selector#focusFirstListMember
-            "
-            query-endpoint="/gifuyanagase/omotenasi/refs"
-            
-            cache-key="v0:1653549000.825166"
-            current-committish="bWFzdGVy"
-            default-branch="bWFzdGVy"
-            name-with-owner="Z2lmdXlhbmFnYXNlL29tb3RlbmFzaQ=="
-            prefetch-on-mouseover
-          >
-
-            <template data-target="ref-selector.fetchFailedTemplate">
-              <div class="SelectMenu-message" data-index="{{ index }}">Could not load branches</div>
-            </template>
-
-              <template data-target="ref-selector.noMatchTemplate">
-    <div class="SelectMenu-message">Nothing to show</div>
-</template>
-
-
-            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list " data-pjax="#repo-content-pjax-container">
-              <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
-                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-              </div>
-            </div>
-
-              <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/gifuyanagase/omotenasi/blob/{{ urlEncodedRefName }}/public/shusei.svg" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-</svg>
-    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
-    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
-  </a>
-</template>
-
-
-              <footer class="SelectMenu-footer"><a href="/gifuyanagase/omotenasi/branches">View all branches</a></footer>
-          </ref-selector>
-
-        </div>
-
-        <div role="tabpanel" id="tags-menu" data-filter-placeholder="Find a tag" tabindex="" hidden class="d-flex flex-column flex-auto overflow-auto">
-          <ref-selector
-            type="tag"
-            data-action="
-              input-entered:ref-selector#inputEntered
-              tab-selected:ref-selector#tabSelected
-              focus-list:ref-selector#focusFirstListMember
-            "
-            data-targets="input-demux.sinks"
-            query-endpoint="/gifuyanagase/omotenasi/refs"
-            cache-key="v0:1653549000.825166"
-            current-committish="bWFzdGVy"
-            default-branch="bWFzdGVy"
-            name-with-owner="Z2lmdXlhbmFnYXNlL29tb3RlbmFzaQ=="
-          >
-
-            <template data-target="ref-selector.fetchFailedTemplate">
-              <div class="SelectMenu-message" data-index="{{ index }}">Could not load tags</div>
-            </template>
-
-            <template data-target="ref-selector.noMatchTemplate">
-              <div class="SelectMenu-message" data-index="{{ index }}">Nothing to show</div>
-            </template>
-
-              <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/gifuyanagase/omotenasi/blob/{{ urlEncodedRefName }}/public/shusei.svg" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
-    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-</svg>
-    <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
-    <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
-  </a>
-</template>
-
-
-            <div data-target="ref-selector.listContainer" role="menu" class="SelectMenu-list" data-pjax="#repo-content-pjax-container">
-              <div class="SelectMenu-loading pt-3 pb-0 overflow-hidden" aria-label="Menu is loading">
-                <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-              </div>
-            </div>
-              <footer class="SelectMenu-footer"><a href="/gifuyanagase/omotenasi/tags">View all tags</a></footer>
-          </ref-selector>
-        </div>
-      </tab-container>
-    </input-demux>
-  </div>
-</div>
-
-  </details>
-
-</div>
-
-  <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/gifuyanagase/omotenasi"><span>omotenasi</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/gifuyanagase/omotenasi/tree/master/public"><span>public</span></a></span><span class="separator">/</span><strong class="final-path">shusei.svg</strong>
-  </h2>
-  <a href="/gifuyanagase/omotenasi/find/master" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">  Go to file
-  
-</a>
-  <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
-  <summary role="button" data-view-component="true" class="btn">  <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
-    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-</svg>
-  
-</summary>
-  <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
-        <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:496489784,&quot;originating_url&quot;:&quot;https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d8ebb2ce0de35d66a8b148d4f79c98fd736d3d0c1a061ef6d71074e92cd543f1" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/gifuyanagase/omotenasi/find/master">
-            <span class="flex-auto">Go to file</span>
-            <span class="text-small color-fg-muted" aria-hidden="true">T</span>
-</a>        </li>
-        <li data-toggle-for="blob-more-options-details">
-          <button data-toggle-for="jumpto-line-details-dialog" type="button" data-view-component="true" class="dropdown-item btn-link">  <span class="d-flex flex-items-baseline">
-              <span class="flex-auto">Go to line</span>
-              <span class="text-small color-fg-muted" aria-hidden="true">L</span>
-            </span>
-  
-</button>        </li>
-        <li class="dropdown-divider" role="none"></li>
-        <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
-    
-            Copy path
-
-</clipboard-copy>        </li>
-        <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/gifuyanagase/omotenasi/blob/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg" data-view-component="true" class="dropdown-item cursor-pointer">
-    
-            <span class="d-flex flex-items-baseline">
-              <span class="flex-auto">Copy permalink</span>
-            </span>
-
-</clipboard-copy>        </li>
-      </ul>
-</div>
-</details></div>
-
-
-
-
-
-    <div id="spoof-warning" class="mt-0 pb-3" hidden aria-hidden>
-  <div data-view-component="true" class="flash flash-warn mt-0 clearfix">
-  
-  
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert float-left mt-1">
-    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
-</svg>
-
-      <div class="overflow-hidden">This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.</div>
-
-
-  
-</div></div>
-
-    <include-fragment src="/gifuyanagase/omotenasi/spoofed_commit_check/ff82f7d4fe80701bad4e66143fe1e14348181485" data-test-selector="spoofed-commit-check"></include-fragment>
-
-    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/gifuyanagase/omotenasi/contributors/master/public/shusei.svg" class="commit-loader">
-    <div class="Box-header d-flex flex-items-center">
-      <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
-      <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
-    </div>
-
-    <div class="Box-body d-flex flex-items-center" >
-      <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
-      <span class="color-fg-danger h6 loader-error">Cannot retrieve contributors at this time</span>
-    </div>
-</include-fragment></div>
-
-
-
-
-
-
-
-  
-    <div data-target="readme-toc.content" class="Box mt-3 position-relative">
-      
-  <div
-    class="Box-header js-blob-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    
-  >
-
-
-  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
-
-      853 lines (853 sloc)
-      <span class="file-info-divider"></span>
-    64.3 KB
-  </div>
-
-  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
-        <div class="BtnGroup">
-    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg?short_path=0e445fe" data-permalink-href="/gifuyanagase/omotenasi/blob/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg?short_path=0e445fe" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
-</svg>
-  
-</a>    <a href="/gifuyanagase/omotenasi/blob/master/public/shusei.svg" data-permalink-href="/gifuyanagase/omotenasi/blob/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
-    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path>
-</svg>
-  
-</a>  </div>
-
-
-    <div class="BtnGroup">
-      <a data-permalink-href="/gifuyanagase/omotenasi/raw/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Raw
-  
-</a>        <a data-permalink-href="/gifuyanagase/omotenasi/blame/ff82f7d4fe80701bad4e66143fe1e14348181485/public/shusei.svg" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">  Blame
-  
-</a>    </div>
-
-    <div>
-          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
-             data-platforms="windows,mac"
-             href="https://desktop.github.com"
-             aria-label="Open this file in GitHub Desktop"
-             data-ga-click="Repository, open with desktop">
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
-    <path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path>
-</svg>
-          </a>
-
-        
-          <button class="btn-octicon disabled tooltipped tooltipped-nw" disabled
-            aria-label="You must be signed in to make or propose changes" type="button">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
-    <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
-</svg>
-          </button>
-          <button class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw" disabled
-            aria-label="You must be signed in to make or propose changes" type="button">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
-    <path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path>
-</svg>
-          </button>
-    </div>
-  </div>
-
-    <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
-      <details class="dropdown details-reset details-overlay d-inline-block">
-        <summary class="btn-octicon" aria-haspopup="true" aria-label="possible actions">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
-    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-</svg>
-        </summary>
-
-        <ul class="dropdown-menu dropdown-menu-sw" style="width: 175px">
-            <li>
-                <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
-                   data-platforms="windows,mac"
-                   href="https://desktop.github.com"
-                   data-ga-click="Repository, open with desktop">
-                  Open with Desktop
-                </a>
-            </li>
-          <li>
-            <a class="dropdown-item" href="/gifuyanagase/omotenasi/raw/master/public/shusei.svg">
-              View raw
-            </a>
-          </li>
-            <li>
-                          </li>
-            <li>
-              <a class="dropdown-item" href="/gifuyanagase/omotenasi/blame/master/public/shusei.svg">
-                View blame
-              </a>
-            </li>
-
-        </ul>
-      </details>
-    </div>
-</div>
-
-
-      
-    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-svg  gist-border-0">
-
-          <div class="render-wrapper ">
-    <div class="render-container is-render-pending js-render-target "
-      data-identity="5531c6ea-c0fb-40b0-afc7-b9fa071b7974"
-      data-host="https://viewscreen.githubusercontent.com"
-      data-type="svg">
-      <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" data-view-component="true" class="octospinner mx-auto anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/gifuyanagase/omotenasi/blob/master/public/shusei.svg">Reload?</a></div>
-      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
-      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
-      <iframe
-        class="render-viewer "
-        src="https://viewscreen.githubusercontent.com/view/svg?browser=unknown_browser&amp;color_mode=auto&amp;commit=ff82f7d4fe80701bad4e66143fe1e14348181485&amp;device=unknown_device&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6769667579616e61676173652f6f6d6f74656e6173692f666638326637643466653830373031626164346536363134336665316531343334383138313438352f7075626c69632f7368757365692e737667&amp;logged_in=false&amp;nwo=gifuyanagase%2Fomotenasi&amp;path=public%2Fshusei.svg&amp;platform=unknown_platform&amp;repository_id=496489784&amp;repository_type=Repository&amp;version=0#5531c6ea-c0fb-40b0-afc7-b9fa071b7974"
-        sandbox="allow-scripts allow-same-origin allow-top-navigation"
-        title="File display"
-        name="5531c6ea-c0fb-40b0-afc7-b9fa071b7974"
-      >
-          Viewer requires iframe.
-      </iframe>
-    </div>
-  </div>
- 
-    </div>
-
-    </div>
-
-
-  
-
-  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
-    <summary data-hotkey="l" aria-label="Jump to line"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" data-turbo="false" action="" accept-charset="UTF-8" method="get">
-        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
-        <button data-close-dialog="" type="submit" data-view-component="true" class="btn">  Go
-  
-</button>
-</form>    </details-dialog>
-  </details>
-
-
-</div>
-
-  </div>
-
-
-</div>
-
-
-    </main>
-  </div>
-
-  </div>
-
-          <footer class="footer width-full container-xl p-responsive" role="contentinfo">
-
-
-  <div class="position-relative d-flex flex-items-center pb-2 f6 color-fg-muted border-top color-border-muted flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap mt-6 pt-6">
-    <ul class="list-style-none d-flex flex-wrap col-0 col-lg-2 flex-justify-start flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mt-2 mt-lg-0 d-flex flex-items-center">
-        <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-2" href="https://github.com">
-          <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github">
-    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-</svg>
-</a>        <span>
-        &copy; 2022 GitHub, Inc.
-        </span>
-      </li>
-    </ul>
-    <ul class="list-style-none d-flex flex-wrap col-12 col-lg-8 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
-        <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
-        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
-    </ul>
-  </div>
-  <div class="d-flex flex-justify-center pb-6">
-    <span class="f6 color-fg-muted"></span>
-  </div>
-</footer>
-
-
-
-
-  <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
-</svg>
-    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-    </button>
-    You can’t perform that action at this time.
-  </div>
-
-  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
-    >
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
-</svg>
-    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-  </div>
-    <template id="site-details-dialog">
-  <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
-    <summary role="button" aria-label="Close dialog"></summary>
-    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
-      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-      </button>
-      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-    </details-dialog>
-  </details>
-</template>
-
-    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
-  </div>
-</div>
-
-    <template id="snippet-clipboard-copy-button">
-  <div class="zeroclipboard-container position-absolute right-0 top-0">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
-</svg>
-    </clipboard-copy>
-  </div>
-</template>
-
-
-
-
-  </body>
-</html>
-
